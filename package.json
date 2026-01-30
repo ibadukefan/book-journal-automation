@@ -1,0 +1,25 @@
+{
+  "name": "book-email-automation",
+  "version": "1.0.0",
+  "description": "Email automation system for journal prompts lead magnet",
+  "main": "email-webhook-server.js",
+  "scripts": {
+    "start": "node email-webhook-server.js",
+    "dev": "nodemon email-webhook-server.js",
+    "test": "node book-email-automation.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "email",
+    "automation", 
+    "marketing",
+    "journal",
+    "book"
+  ],
+  "author": "Robert Duncan",
+  "license": "ISC"
+}
